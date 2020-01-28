@@ -1,6 +1,8 @@
 # wine_d3d_def_source
 linux wine d3d def source my reversing code 
 
+Возможно этот wine собранный мною в моей 16.04 сборке работает только от root
+
 wine 5.0 wine_4.0.3-1_amd64  https://drive.google.com/open?id=1k_SzvG09sURl4EwmEGQd37GtZ2aNd2UM
 
 wine 5.0 replace wine , fonts-wine , wine1.6-amd64
@@ -30,6 +32,17 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\Schannel\P
 
 
 Good idea ? Теперь можно внутри и кое где сам linux отредактировать таким способом выдал пока интересные параметры , но возможно кто то найдёт что то более лучшее
+
+Где я нашел кое какую информацию про то что wine может работать от рут https://unixforum.org/viewtopic.php?t=89089
+
+Какие есть ошибки 
+000f:err:service:process_send_command receiving command result timed out 
+000f:fixme:service:scmdatabase_autostart_services Auto-start service L"winebus"
+
+От рут
+wine: configuration in L"/root/.wine" has been updated
+Wine cannot find the ncurses library (libncurses.so.5).
+
 
 
 Скоро мы избавимся от прокладок в виде протон и так далее я ранее как предупреждал работал над операционной системой и я начал сравнивать свою старую операционную систему в которо был очень быстрый directx даже через playonlinux и обнаружил что именно этих фаилов нету в более новых версиях всяких различных дистрибутивов как будто они их скрыли и решили сделать что то новое из них хотя я может и ошибаюсь , но как я иногда делаю так это если не понимаю проект то замораживаю его до того как не поиму и не перекомпилирую допустим с подменой инклюдов с более новых на более старые или наоборот и вразброс.
