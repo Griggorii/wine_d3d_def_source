@@ -12,6 +12,8 @@ $ winecfg
 
 $ regedit
 
+Для очень внимательных regedit набрал без .exe
+
 replace wine 5.0 | wine , fonts-wine , wine1.6-amd64
 
 Может надо править перфикс в .PlayOnLinux если наиду то напишу как сделал
