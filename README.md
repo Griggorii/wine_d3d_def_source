@@ -6,7 +6,7 @@ linux wine d3d def source my reversing code
 wine 5.0 wine_4.0.3-1_amd64  https://drive.google.com/open?id=1k_SzvG09sURl4EwmEGQd37GtZ2aNd2UM
 
 
-$ sudo rm -rf ~/.wine
+$ sudo rm -rf ~/.wine && apt update && apt --reinstall install libncurses5 -y
 
 $ winecfg
 
