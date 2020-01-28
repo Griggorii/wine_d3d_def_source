@@ -32,6 +32,10 @@ HKEY_LOCAL_MACHINE\Hardware\Description\System\CentralProcessor
 сделать 8 ядерный процессор
 
 ______________________________________________________________________________________________
+Pulse Audio
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{25DA76D0-033C-4235-9002-19F48894AC6F}\Properties
+______________________________________________________________________________________________________________
 
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\Classes\Protocols\Filter
 
