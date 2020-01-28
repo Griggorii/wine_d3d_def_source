@@ -1,17 +1,18 @@
 # wine_d3d_def_source
 linux wine d3d def source my reversing code 
 
-Возможно этот wine собранный мною в моей 16.04 сборке работает только от root
+Возможно этот собранный wine в моей 16.04 сборке работает только от root либо к нему не подходит слишком новая версия playonlinux сам wine максимально универсален подходит на все дебиано и убунто подобные дистрибутивы и на самом деле имеет версию 5.0 убедится можно открыв после установки notepad
 
 wine 5.0 wine_4.0.3-1_amd64  https://drive.google.com/open?id=1k_SzvG09sURl4EwmEGQd37GtZ2aNd2UM
 
-wine 5.0 replace wine , fonts-wine , wine1.6-amd64
 
 $ sudo rm -rf ~/.wine
 
 $ winecfg
 
 $ regedit
+
+replace wine 5.0 | wine , fonts-wine , wine1.6-amd64
 
 И вроде есть возможность теперь менять что либо 
 
