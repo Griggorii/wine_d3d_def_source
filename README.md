@@ -15,6 +15,8 @@ $ su
 
 $ regedit
 
+HKEY_LOCAL_MACHINE\Hardware\Description\System\CentralProcessor
+
 Good idea ? Теперь можно внутри и кое где сам linux отредактировать таким способом
 
 
