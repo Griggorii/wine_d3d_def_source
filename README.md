@@ -7,6 +7,10 @@ wine 5.0 wine_4.0.3-1_amd64  https://drive.google.com/open?id=1k_SzvG09sURl4EwmE
 
 wine 5.0 replace wine , fonts-wine , wine1.6-amd64
 
+$ sudo rm -rf ~/.wine
+
+$ winecfg
+
 $ regedit
 
 И вроде есть возможность теперь менять что либо 
