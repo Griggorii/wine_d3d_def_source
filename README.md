@@ -19,7 +19,17 @@ HKEY_LOCAL_MACHINE\Hardware\Description\System\CentralProcessor
 
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\Classes\Protocols\Filter
 
-Good idea ? Теперь можно внутри и кое где сам linux отредактировать таким способом
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum\DISPLAY\DEFAULT_MONITOR\0000&0000\Properties\{233A9EF3-AFC4-4ABD-B564-C32F21F1535B}
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum\ROOT\WINE\WINEBUS\Device Parameters
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceClasses\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurityProviders\Schannel\Protocols\SSL 2.0\Client
+
+
+
+Good idea ? Теперь можно внутри и кое где сам linux отредактировать таким способом выдал пока интересные параметры , но возможно кто то найдёт что то более лучшее
 
 
 Скоро мы избавимся от прокладок в виде протон и так далее я ранее как предупреждал работал над операционной системой и я начал сравнивать свою старую операционную систему в которо был очень быстрый directx даже через playonlinux и обнаружил что именно этих фаилов нету в более новых версиях всяких различных дистрибутивов как будто они их скрыли и решили сделать что то новое из них хотя я может и ошибаюсь , но как я иногда делаю так это если не понимаю проект то замораживаю его до того как не поиму и не перекомпилирую допустим с подменой инклюдов с более новых на более старые или наоборот и вразброс.
