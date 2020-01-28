@@ -24,6 +24,11 @@ $ regedit
 
 HKEY_LOCAL_MACHINE\Hardware\Description\System\CentralProcessor
 
+Показался самым интересным параметром и как я понял там можно максимально разогнать процессор либо вообще из четырёх ядерника 
+сделать 8 ядерный процессор
+
+______________________________________________________________________________________________
+
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\Classes\Protocols\Filter
 
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum\DISPLAY\DEFAULT_MONITOR\0000&0000\Properties\{233A9EF3-AFC4-4ABD-B564-C32F21F1535B}
